@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 2px solid gray;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.item1{
+    background-color: rgb(80, 227, 194);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid gray;
+}
+
+.item2{
+    border: 2px solid gray;
+}
